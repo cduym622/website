@@ -1,9 +1,9 @@
 
 .headcontainer {
-    background-color: #45A2F8;
+    background-color: #778CFD;
     position: fixed;
     width: 100%;
-    height: 32px;
+    height: 6.7%;
     left: 0;
     top: 0;
     display: flex;
@@ -12,15 +12,12 @@
 
 .headchild {
     align-self: center;
-    font-size: 20;
+    font-size: 30;
+    color: white;
+    font-family: "a Atomic Md";
+
 }
 
 .headcontainer div:hover {
     background-color: #174B7B;
 }
-
-body {
-    background-color: #132257;
-    color: white;
-}
-
