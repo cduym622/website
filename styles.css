@@ -21,3 +21,20 @@
 .headcontainer div:hover {
     background-color: #174B7B;
 }
+
+.namecontainer {
+    position: fixed;
+    top: 41%;
+    left: 9%;
+    display: grid;
+}
+
+.name {
+    font-size: 70;
+    font-family: "a Atomic Md";
+}
+
+.school {
+    font-size: 27;
+    font-family: "a Atomic Md";
+}
