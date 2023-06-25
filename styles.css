@@ -1,4 +1,9 @@
 
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(239,241,252,1) 42%, rgba(119,140,253,1) 100%); 
+}
+
 .headcontainer {
     background-color: #778CFD;
     position: fixed;
@@ -24,17 +29,35 @@
 
 .namecontainer {
     position: fixed;
-    top: 41%;
+    top: 20%;
     left: 9%;
+    width: 1574px;
     display: grid;
+    grid-template-rows: [row1-start] 50% [row1-end row2-start] 50%;
+    grid-template-columns: [col1-start] 25% [col1-end col2-start] 35% [col2-end col3-start] 40%;
 }
+
 
 .name {
     font-size: 70;
     font-family: "a Atomic Md";
+    grid-column: col1-start / span col2-end;
+    grid-row: row1-start / row1-end;
+    align-self: end;
+    justify-self: end;
 }
 
 .school {
     font-size: 27;
     font-family: "a Atomic Md";
+    grid-column: col2-start;
+    grid-row: row2-start;
+    justify-self: end;
+    
+}
+
+.headshot {
+    grid-column: col3-start;
+    grid-row: row1-start / span 2;
+    justify-self: center;
 }
