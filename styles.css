@@ -1,26 +1,35 @@
 
 body {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(239,241,252,1) 42%, rgba(119,140,253,1) 100%); 
+    margin: 0;
+    height: 100%;
+    background-color: white;
+    background: linear-gradient(to bottom right, white 42%, rgba(119,140,253,1) 100%); 
 }
 
 .headcontainer {
     background-color: #778CFD;
     position: fixed;
     width: 100%;
-    height: 6.7%;
+    height: 5%;
     left: 0;
     top: 0;
     display: flex;
-    place-content: space-around;
+    justify-content: space-around;
+    
+    
 }
 
 .headchild {
-    align-self: center;
-    font-size: 30;
+    font-size: 125%;
     color: white;
     font-family: "a Atomic Md";
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
+.headname {
+    font-size: 175%;
+    align-self: center;
 }
 
 .headcontainer div:hover {
@@ -60,4 +69,10 @@ body {
     grid-column: col3-start;
     grid-row: row1-start / span 2;
     justify-self: center;
+}
+
+.pfp {
+    border-radius: 40%;
+    border: 3px solid #778CFD;
+    
 }
