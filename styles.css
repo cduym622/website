@@ -14,9 +14,13 @@ body {
     left: 0;
     top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
     
+}
+
+.headend {
+    padding-right: 7%;
 }
 
 .headchild {
@@ -28,13 +32,14 @@ body {
 }
 
 .headname {
-    padding-right: 25%;
+    padding-right: 40%;
+    padding-left: 10%;
     font-size: 175%;
     align-self: center;
 }
 
 .headcontainer div.headchild:hover {
-    background-color: #174B7B;
+    color: #174B7B;
 }
 
 .namecontainer {
@@ -90,4 +95,11 @@ body {
     color: white;
     background-color: #778CFD;
     
+}
+
+.resume {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
