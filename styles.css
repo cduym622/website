@@ -22,25 +22,29 @@ body {
 .headchild {
     font-size: 125%;
     color: white;
-    font-family: "a Atomic Md";
-    margin-top: auto;
-    margin-bottom: auto;
+    font-family: "a Atomic Md", "Arial Black", serif;
+    align-self: center;
+    padding: auto;
 }
 
 .headname {
+    padding-right: 25%;
     font-size: 175%;
     align-self: center;
 }
 
-.headcontainer div:hover {
+.headcontainer div.headchild:hover {
     background-color: #174B7B;
 }
 
 .namecontainer {
-    position: fixed;
-    top: 20%;
-    left: 9%;
-    width: 1574px;
+    padding-left: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: "a Atomic Md", "Arial Black", serif;
+    transform: translate(-50%, -70%);
+    width: 82%;
     display: grid;
     grid-template-rows: [row1-start] 50% [row1-end row2-start] 50%;
     grid-template-columns: [col1-start] 25% [col1-end col2-start] 35% [col2-end col3-start] 40%;
@@ -49,7 +53,7 @@ body {
 
 .name {
     font-size: 70;
-    font-family: "a Atomic Md";
+    font-family: inherit;
     grid-column: col1-start / span col2-end;
     grid-row: row1-start / row1-end;
     align-self: end;
@@ -58,7 +62,7 @@ body {
 
 .school {
     font-size: 27;
-    font-family: "a Atomic Md";
+    font-family: inherit;
     grid-column: col2-start;
     grid-row: row2-start;
     justify-self: end;
@@ -74,5 +78,16 @@ body {
 .pfp {
     border-radius: 40%;
     border: 3px solid #778CFD;
+    
+}
+
+.showresume {
+    position: fixed;
+    transform: translate(-50%);
+    left: 50%;
+    top: 75%;
+    font-family: "a Atomic Md", "Arial Black", serif;
+    color: white;
+    background-color: #778CFD;
     
 }
