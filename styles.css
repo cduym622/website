@@ -97,9 +97,21 @@ body {
     
 }
 
+button.resume:hover {
+    background-color: #174B7B;
+}
+
 .resume {
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 20%;
+    height: 5%;
+    font-family: "a Atomic Md", "Arial Black", serif;
+    font-size: 100%;
+    border:white solid 2px;
+    background-color:#778CFD;
+    color: white;
+    border-radius: 50px;
 }
